@@ -14,7 +14,7 @@ Step 3:
 The AES-like algorithm takes a plaintext and a key (both provided by the user) and performs encryption through an XOR operation between each character of the plaintext and the key (repeating the key if necessary). The ciphertext is output in ASCII values. Decryption reverses the XOR operation to retrieve the original plaintext.
 
 ## PROGRAM:
-
+```
 #include <stdio.h>
 #include <string.h>
 
@@ -66,7 +66,7 @@ int main()
 
     return 0;
 }
-
+```
 ## OUTPUT:
 
 ![image](https://github.com/user-attachments/assets/e598449a-720b-42f1-85ac-c500560f3903)
